@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+    
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script type="text/javascript" src="paper.js"></script>
+    <script src="http://code.angularjs.org/1.2.6/angular-animate.js"></script>
+    <script src="jquery-csv.js"></script>
+    <link rel="stylesheet" href="style.css"> 
+    
+
+<script type="text/paperscript" canvas="paperCanvas">
+    var path;
+    function onMouseDown(event) {
+        // Create a path:
+        path = new Path();
+        path.strokeColor = 'black';
+        // Add the mouse down position:
+        path.add(event.point);
+    }
+    
+    function onMouseUp(event) {
+        // Add the mouse up position:
+        path.add(event.point);
+    }
+</script>
+    
+      
+</head>
+    <body>
+        <div id = "main"><div id = "slider"></div>  
+             <!--<img id="scream" src="uk.jpg" alt="The Scream" width="50" height="50">-->
+            <canvas id="myCanvas" width="30" height="20" style="border:1px solid #d3d3d3;">
+                Your browser does not support the HTML5 canvas tag.</canvas> 
+            <div id="viz">
+            <table></table>
+            <!--<form name="checkListForm">-->
+            <div class="row">
+            <span>
+                    <input class="card-slide" id="state" type="text" placeholder="Liquid, solid, gaseous..." /><label for="state">State</label>
+                </span>
+
+                </div>
+           <!-- </form> -->
+            <p id= "countries"></p>
+             <canvas id="paperCanvas" ></canvas>
+            <p id= "totalResult"></p>
+            </div>
+        
+        </div>
+        
+        
+            <script type="text/javascript" src ="d3.js" ></script>
+            <script type="text/javascript" src ="functions.js" ></script>
+    
+    </body>
+</html>

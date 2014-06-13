@@ -1,0 +1,25 @@
+<html>
+<head>
+<!-- Load the Paper.js library -->
+<script type="text/javascript" src="paper.js"></script>
+<!-- Define inlined PaperScript associate it with myCanvas -->
+<script type="text/paperscript" canvas="myCanvas">
+var path;
+function onMouseDown(event) {
+	// Create a path:
+	path = new Path();
+	path.strokeColor = 'black';
+	// Add the mouse down position:
+	path.add(event.point);
+}
+
+function onMouseUp(event) {
+	// Add the mouse up position:
+	path.add(event.point);
+}
+</script>
+</head>
+<body>
+	<canvas id="myCanvas" ></canvas>
+</body>
+</html>

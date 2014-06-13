@@ -1,0 +1,23 @@
+;Country;Source;easy;intermediate;hard;Europe;Asia;America;Africa
+1;Germany;germany.gif;1;0;0;1;0;0;0
+2;Spain;spain.gif;1;1;0;1;0;0;0
+3;Iceland;iceland.jpg;0;0;1;1;0;0;0
+4;South Korea;southkorea.jpg;0;1;1;0;1;0;0
+5;UK;uk.jpg;1;1;0;1;0;0;0
+6;Brazil;brazil.jpg;0;1;1;0;0;1;0
+7;South Africa;sa.png;0;0;1;0;0;0;1
+8;Canada;canada.gif;0;1;1;0;0;1;0
+9;Greece;gr.gif;0;1;1;1;0;0;0
+10;USA;usa.gif;1;1;1;0;0;1;0
+11;Israel;israel.gif;0;1;1;1;1;0;0
+12;Portugal;portugal.gif;0;1;1;1;0;0;0
+13;Austria;AT.jpg;0;1;1;1;0;0;0
+14;France;France.gif;1;1;0;1;0;0;0
+15;Italy;it.png;1;1;0;1;0;0;0
+16;Switzerland;swiss.jpg;1;1;0;1;0;0;0
+17;Lithuana;Flag-Lithuania.jpg;0;0;1;1;0;0;0
+18;India;flag_india.jpg;1;1;1;0;1;0;0
+19;Colombia;colombia.gif;0;0;1;0;0;1;0
+20;Belgium;belgium.png;1;1;0;1;0;0;0
+21;Ukraine;ukraine.png;0;1;0;0;0;0;0
+22;Luxembourg;luxembourg_flag.gif;0;0;1;1;0;0;0
